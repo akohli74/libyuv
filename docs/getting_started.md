@@ -11,7 +11,7 @@ Refer to chromium instructions for each platform for other prerequisites.
 
 Create a working directory, enter it, and run:
 
-    gclient config https://chromium.googlesource.com/libyuv/libyuv
+    gclient --name src config https://chromium.googlesource.com/libyuv/libyuv
     gclient sync
 
 
